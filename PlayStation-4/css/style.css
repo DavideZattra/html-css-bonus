@@ -23,7 +23,7 @@ body{
 
 
 .ms_btn{
-    font-weight: 400;
+    font-weight: bold;
     border-radius: 25px;
 }
 
@@ -85,14 +85,29 @@ HEADER-SECTION */
 
 /* SONY-LOGO STYLE */
 #ms_sony-logo{
-    padding: 5px 10px;
+    padding: 8px 15px;
     background-color: black;
+}
+
+#ms_sony-logo img{
+    height: 15px;
 }
 
 
 /* IMPORTANT!!! 
     MAIN-SECTION */
 
+    /* OTHER AVAILABLE GAMES STYLE */
+#ms_other-available-games [class*="col"]{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ms_other-available-games [class*="col"] p{
+    flex-grow: 1;
+}
 
 
 /* IMPORTANT!!! 
