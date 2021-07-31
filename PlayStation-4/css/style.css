@@ -67,12 +67,18 @@ body{
     border-radius: 15px;
 }
 
+
+.ms_sixty-img{
+    width: 60%;
+}
+
 .ms_hundred-img{
     width: 100%;
 }
 
-.ms_sixty-img{
-    width: 60%;
+.ms_h356px-overflow{
+    height: 356px;
+    overflow-y: hidden;
 }
 
 /* IMPORTANT!!! 
@@ -96,7 +102,13 @@ HEADER-SECTION */
 
 /* IMPORTANT!!! 
     MAIN-SECTION */
+    
+    /* MAIN AVAILABLE GAMES STYLE */
 
+    /* whatchdogs-legion style */
+#ms_whatchdogs-legion{
+    background-color: rgba(238,238,238,255);
+}
     /* OTHER AVAILABLE GAMES STYLE */
 #ms_other-available-games [class*="col"]{
     display: flex;
@@ -107,6 +119,11 @@ HEADER-SECTION */
 
 #ms_other-available-games [class*="col"] p{
     flex-grow: 1;
+}
+
+/* indie-ps STYLE */
+#ms_indie-ps{
+    background-color: #451e9b;
 }
 
 
